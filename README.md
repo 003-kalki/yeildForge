@@ -1,8 +1,6 @@
 # YieldForge
-
 YieldForge is an **AI-powered DeFi Yield Optimizer** built on the **Aptos blockchain**.  
 It combines **smart contracts (Move language)**, **AI-based recommendation engine (Python)**, and a beautiful **React + TailwindCSS frontend** to create the next-generation DeFi experience.
-
 ---
 
 ## Project Structure
@@ -19,35 +17,32 @@ Blockchain | Aptos, Move Language
 AI Engine  | Python (FastAPI, scikit-learn, etc.)
 Hosting (future) | Vercel / AWS / Aptos Node
 
-Setup Instructions
+# Setup Instructions
 1. Clone the Repository
 - git clone https://github.com/003-kalki/yeildForge.git
 - cd yeildForge
 
 2. Frontend setup
-cd frontend
-npm install
-npm run dev
+- cd frontend
+- npm install
+- npm run dev
 
-3.  Blockchain Setup (Aptos)
-
+3.Blockchain Setup (Aptos)
 Install Aptos CLI:
-- curl -sSf https://aptos.dev/cli-install | sh
-- 
+-> curl -sSf https://aptos.dev/cli-install | sh
+  
 Initialize project:
 - cd blockchain
 - aptos init
 
 Compile and deploy contracts:
-
-aptos move compile
-aptos move publish
+- aptos move compile
+- aptos move publish
 
 4. AI Engine Setup
-
 cd ai-engine
-python3 -m venv venv
-source venv/bin/activate
-pip install -r requirements.txt
-uvicorn services.api:app --reload
+- python3 -m venv venv
+- source venv/bin/activate
+- pip install -r requirements.txt
+- uvicorn services.api:app --reload
 
