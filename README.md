@@ -3,19 +3,11 @@ YieldForge is an **AI-powered DeFi Yield Optimizer** built on the **Aptos blockc
 It combines **smart contracts (Move language)**, **AI-based recommendation engine (Python)**, and a beautiful **React + TailwindCSS frontend** to create the next-generation DeFi experience.
 ---
 
-## Project Structure
-yeildForge/
-├── ai-engine/          # Python AI service to recommend optimized yield strategies
-├── blockchain/         # Move smart contracts deployed on Aptos blockchain
-├── frontend/           # React.js frontend for users to interact with YieldForge
-├── README.md
-└── .gitignore
-
-  Layer    |     Technology
-Frontend   | React.js, Vite, Tailwind CSS
-Blockchain | Aptos, Move Language
-AI Engine  | Python (FastAPI, scikit-learn, etc.)
-Hosting (future) | Vercel / AWS / Aptos Node
+Layer	Technology
+Frontend	- React.js, Vite, Tailwind CSS
+Blockchain	- Aptos, Move Language
+AI Engine	- Python (FastAPI, scikit-learn, etc.)
+Hosting (future)	- Vercel / AWS / Aptos Node
 
 # Setup Instructions
 1. Clone the Repository
